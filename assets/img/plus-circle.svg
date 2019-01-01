@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Add Language</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="job-details_military_apply-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-323.000000, -1075.000000)">
+        <g id="input" transform="translate(150.000000, 1021.000000)">
+            <g id="Add-Language" transform="translate(174.000000, 55.000000)">
+                <circle id="Oval-4" stroke="#43BA80" cx="24" cy="24" r="24"></circle>
+                <path d="M15.6363318,24.6405674 C15.2817959,24.6405674 15,24.3497647 15,23.9954204 C15,23.6410762 15.2817959,23.3594326 15.6363318,23.3594326 L23.3542177,23.3594326 L23.3542177,15.6451469 C23.3547905,15.2908027 23.6457505,15 24.0002864,15 C24.3548223,15 24.6366182,15.2908027 24.6366182,15.6451469 L24.6366182,23.3594326 L32.3545041,23.3594326 C32.70904,23.3594326 33,23.6410762 33,23.9954204 C33,24.3497647 32.70904,24.6405674 32.3545041,24.6405674 L24.6366182,24.6405674 L24.6366182,32.3548531 C24.6366182,32.7091973 24.3548223,33 24.0002864,33 C23.6457505,33 23.3547905,32.7091973 23.3547905,32.3548531 L23.3547905,24.6405674 L15.6363318,24.6405674 Z" id="Shape" fill="#43BA80" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="22px" viewBox="0 0 45 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>burger icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="job-listing_mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-646.000000, -62.000000)">
+        <path d="M648,62 L689,62 C690.104569,62 691,62.8954305 691,64 C691,65.1045695 690.104569,66 689,66 L648,66 C646.895431,66 646,65.1045695 646,64 C646,62.8954305 646.895431,62 648,62 Z M648,71 L689,71 C690.104569,71 691,71.8954305 691,73 C691,74.1045695 690.104569,75 689,75 L648,75 C646.895431,75 646,74.1045695 646,73 C646,71.8954305 646.895431,71 648,71 Z M648,80 L689,80 C690.104569,80 691,80.8954305 691,82 C691,83.1045695 690.104569,84 689,84 L648,84 C646.895431,84 646,83.1045695 646,82 C646,80.8954305 646.895431,80 648,80 Z" id="burger-icon" fill="#FFFFFF"></path>
+    </g>
+</svg>

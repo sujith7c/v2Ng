@@ -1,0 +1,206 @@
+.header-top {
+  background-image: url('../../assets/img/banner.jpg');
+  padding: 10px 0;
+  margin-bottom: 20px;
+  position: relative;
+  background-size: cover;
+  height: 590px;
+  /*overflow: auto;*/
+}
+
+.navbar-wrapper {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-color: #fff;
+  border-width: 1px;
+  border-bottom: 2px solid white;
+}
+
+.bline.border-bottom.border-info {
+  width: 400px;
+}
+
+.header-wrap {
+  /*height: 100vh;*/
+  /*overflow: auto;*/
+}
+
+.row.taxonomy-filters {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.col.filter-col {
+  padding: 15px;
+  /*display: table;*/
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  font-family: 'Roboto';
+}
+
+.filter-content a {
+  color: #000;
+  font-weight: 700;
+  /*display: table;*/
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+}
+
+.filter-content {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filter-head {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.footer-content {
+  /*height: 310px;*/
+  background-color: #000;
+}
+
+.row.footer-row ul li a {
+  padding-top: 20px;
+}
+
+.row.footer-row {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.footer-links li a {
+  /*list-style: none;*/
+  color: #fff;
+}
+
+.footer-links {
+  list-style: none;
+  /*color: #fff;*/
+}
+
+.copyright-wrapper span {
+  color: #fff;
+  text-align: center;
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  padding-top: 20px;
+  margin-top: 10px;
+}
+
+.f-social-icon {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(../../assets/img/burger.svg);
+}
+
+.navbar-light .navbar-brand {
+  background-image: url("../../assets/img/logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  width: 120px;
+  height: 22px;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+}
+
+.banner-head {
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-size: small;
+}
+
+.banner-text {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: x-large;
+}
+
+.banner-head-wrapper {
+  border-top: 1px solid #fff;
+  color: #fff;
+  padding-top: 45vh;
+}
+
+#search-apply-falsh a:hover {
+  color: #fff;
+}
+
+#search-apply-falsh:hover {
+  background-color: #43BA80;
+}
+
+.search-result-field-wrapper {
+  /*padding: 12px;*/
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.result-box {
+  background: #eee;
+}
+
+.main {
+  font-family: 'Roboto';
+}
+
+.navbar.navbar-light.top-navbar {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px;
+  border-color: #fff;
+}
+
+.search-result-wrapper.search-result-item {
+  margin: 25px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.result-head {
+  height: 40px;
+}
+
+.fld-logo {
+  height: 37px;
+  /*width: 39px;*/
+  /*padding: 5px;*/
+}
+
+.text-right.seach-result-tag.d-inline-block {
+  border: 2px solid #000;
+  border-radius: 15px;
+  float: right;
+  padding: 2px;
+}
+
+.search-result-teaser {
+  padding: 25px;
+}
+
+.search-result-field-wrapper .label {
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.more-box{
+  margin-left:auto;
+  margin-right:auto;
+  padding:20px;
+}

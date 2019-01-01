@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>prototype</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+        <link rel="stylesheet" href="assets/css/bootstrap-better-nav.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="assets/js/env/env.js"></script>
+        <script src="assets/js/angular.min.js"></script>
+        <script src="assets/js/app.js"></script>
+    </head>
+    <body ng-app="prototype" class="main">
+        <!--Include header template TODO  add controller logic later-->
+        <ng-include src="'app/templates/header.html'"></ng-include>
+        <main ng-controller="maincontroller" class="contens">
+            <div class="search-hbox">
+                <div class="taxonomy-filter-wrapper w-100">
+                    <div class="row taxonomy-filters">
+                        <div class="col-lg-4 col-xl-4 filter-col">
+                            <span class="filter-head">I AM LOOKING FOR</span>
+                            <div class="filter-content">
+                                <a href="#">{{title.man}}</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-xl-4 filter-col">
+                            <span class="filter-head">I AM LOOKING FOR</span>
+                            <div class="filter-content">
+                                <a href="#">{{title.dev}}</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-xl-4 filter-col">
+                            <span class="filter-head">SHOW ME</span>
+                            <div class="filter-content">
+                                <a href="#">{{title.all}}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center filter-wrapper w-75">
+                    <div class="row">
+                        <div class="col-lg-3 col-xl-3 filterby p-2">
+                            <span class="p-1"><img src="assets/img/filter.svg"></span>
+                            <span>FILTER BY</span>
+                        </div>
+                        <div class="col-lg-3 col-xl-3 p-2">
+                            <span class="p-1">POSTING DATE</span>
+                            <span><img src="assets/img/arrow-head-down.svg"></span>
+                        </div>
+                        <div class="col-lg-3 col-xl-3 p-2">
+                            <span class="p-1">NATIONALILTY</span><span class="p-1">
+                                <img src="assets/img/arrow-head-down.svg"></span>
+                            </div>
+                        <div class="col-lg-3 col-xl-3 p-2">
+                            <span class="p-1">GENDER</span>
+                            <span><img src="assets/img/arrow-head-down.svg"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center email-notification">
+                    <span><img src="assets/img/bell.svg"></span>
+                    <a href="#">CREATE EMAIL NOTIFICATION</a>
+                </div>
+            </div>
+            <div class="result-box">
+                <div ng-controller="searchResult" class="search-items">
+                    <!--ng include -->
+                    <ng-include src="'app/templates/results_row.html'"></ng-include>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <!--ng include -->
+            <ng-include src="'app/templates/footer.html'"></ng-include>        
+        </footer>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/bootstrap-better-nav.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        <script src="assets/js/controllers/searchResult.js"></script>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+<div class="row">
+    <div ng-repeat="row in rowData | limitTo: setLimit()" class="col-12 col-sm-12 col-md-11 col-lg-6 col-xl-6 result-box-items">
+        <div ng-repeat="col in row.column">
+            <div class="search-result-wrapper search-result-item">
+                <div class="text-left result-head">
+                    <div class="d-inline-block fld-logo">
+                        <span class="search-result-field-logo">
+                            <img src="assets/img/fill30.svg" width="39" height="37">
+                        </span>
+                    </div>
+                    <div class="search-result-title d-inline-block">
+                        <a href="#" class="title">{{col.title}}</a>
+                    </div>
+                    <div class="text-right seach-result-tag d-inline-block">
+                        <span style="padding: 2px;">{{col.job_type}}</span>
+                    </div>
+                </div>
+                <div class="search-result-teaser">
+                    <p>{{col.description}}</p>
+                </div>
+                <div class="search-result-field-wrapper">
+                    <div class="search-result-nationlity d-inline-block p-3">
+                        <span class="sub-title label">NATIONALITY</span>
+                        <div class="field">
+                            <span>{{col.nationality}}</span>
+                        </div>
+                    </div>
+                    <div class="search-result-salary d-inline-block p-3">
+                        <span class="label">SALARY</span>
+                        <div class="field">
+                            <span>AED {{col.salary}}</span>
+                        </div>
+                    </div>
+                    <div class="search-result-date d-inline-block p-3">
+                        <span class="label">LAST DATE</span>
+                        <div class="field">
+                            <span>{{col.last_date}}</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-result-apply-btn center-block">
+                    <div id="search-apply-falsh" class="search-apply-btn center-block">
+                        <a href="#" class="apply-offer-link">APPLY AND OFFER</a>
+                    </div>
+                </div>
+            </div>                
+        </div>
+    </div>
+    <div class="more-box">
+        <button ng-show="hasMoreItemsToShow()" ng-click="showMore()">Show More</button>
+    </div>
+</div>
